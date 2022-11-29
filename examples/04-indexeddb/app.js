@@ -10,13 +10,18 @@ databaseRequest.onsuccess = function (event) {
   console.log(database);
 };
 
+databaseRequest.onupgradeneeded = function (event) {
+  database = event.target.result;
+  database.createObjectStore('products', { keyPath: 'id' });
+}
+
 databaseRequest.onerror = function (event) {
   console.log('ERROR!');
   console.log(event);
 };
 
 writeToButton.addEventListener('click', () => {
-  const productsStore = database
+  let productsStore = database
     .transaction('products', 'readwrite')
     .objectStore('products');
   productsStore.add({
