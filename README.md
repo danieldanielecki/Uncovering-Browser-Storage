@@ -6,3 +6,5 @@ There were questions about ‘IndexedDB’ where it could've been used I couldn'
 - Tool for storing data locally PR switching to IndexedDB: https://github.com/excalidraw/excalidraw/pull/1643
 
 Lots of materials about storing data locally: https://localfirstweb.dev and interesting header `Clear-Site-Data` (https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Clear-Site-Data)
+
+https://www.evolu.dev - React Hooks for local-first apps
