@@ -8,3 +8,4 @@ There were questions about ‘IndexedDB’ where it could've been used I couldn'
 Lots of materials about storing data locally: https://localfirstweb.dev and interesting header `Clear-Site-Data` (https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Clear-Site-Data)
 
 https://www.evolu.dev - React Hooks for local-first apps
+https://evilmartians.com/chronicles/cool-front-end-arts-of-local-first-storage-sync-and-conflicts - good article with some out-of-the-box tools (solutions)
