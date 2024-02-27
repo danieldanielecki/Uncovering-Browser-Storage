@@ -10,3 +10,5 @@ Lots of materials about storing data locally: https://localfirstweb.dev and inte
 - https://www.evolu.dev - React Hooks for local-first apps
 - https://evilmartians.com/chronicles/cool-front-end-arts-of-local-first-storage-sync-and-conflicts - good article with some out-of-the-box tools (solutions)
 - https://automerge.org - toolkit for building local-first applications
+- https://rxdb.info/ - local JavaScript database
+
